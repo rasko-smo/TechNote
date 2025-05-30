@@ -1,0 +1,17 @@
+@charset "utf-8";
+
+/* サイト左上の変更履歴 */
+#period {
+    color: darkgray;
+    text-align: left;
+}
+
+/* サイトの説明 */
+#explainSite {
+    text-align: center;
+}
+
+/* 目次へ戻るボタン */
+#returnToTable {
+    padding-left: 20px;
+}

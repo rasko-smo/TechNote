@@ -1,0 +1,42 @@
+@charset "utf-8";
+
+/* サイト全体の設定 */
+* {
+    /* margin: 0; */
+    box-sizing: border-box;
+}
+
+/* コードを記述する際のレイアウト */
+.codeText {
+    color: white;
+    background-color: black;
+    padding: 20px;
+}
+
+/* 各ページのタイトル(ページ上部の大見出し) */
+h1 {
+    color: cadetblue;
+    text-align: center;
+}
+
+/* 小見出し */
+h2 {
+    color: cadetblue;
+    padding-left: 20px;
+}
+
+/* a要素の上にカーソルがある場合に対象文字を斜めにする */
+a:hover {
+    font-style: italic;
+}
+
+/* 各ブロック */
+.block {
+    padding: 20px;
+    border-bottom: 1px solid cadetblue;
+}
+
+/* レスポンシブデザイン用 */
+@media only screen and (max-width : 1000px){
+
+}
