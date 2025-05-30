@@ -15,3 +15,13 @@
 #returnToTable {
     padding-left: 20px;
 }
+
+#tableIndex {
+    width: 100vw;
+    display: flex;
+    flex-flow: row;
+}
+
+#tableIndex ul {
+    width: calc(100% / 3);
+}
