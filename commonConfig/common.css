@@ -36,6 +36,86 @@ a:hover {
     border-bottom: 1px solid cadetblue;
 }
 
+/* ヘッダー用 */
+header {
+    width: 100vw;
+    /* height: 50px; */
+    color: white;
+    background-color: cadetblue;
+    display: flex;
+    flex-flow: row;
+}
+
+/* ページ上は<div id="header"></div>を記述し、そこにheader.htmlを差し込む形である。
+上記のheaderタグにposition　stickyを設定してもヘッダーが固定されない。
+なぜなら、stickyは親要素のコンテナ内のみで固定される仕様であり、この場合div　id="header" が親要素となってしまうためである。
+そのため、下記でheaderのidを指定し、親要素のbodyがコンテナとなるように設定した。*/
+#header {
+    position: sticky;
+    top: 0;
+}
+
+header div {
+    width: calc(100% / 6 );
+    /* height: 50px; */
+    text-align: center;
+    font-weight: bold;
+    line-height: 50px;
+    border: 2px solid white;
+}
+
+/* ナビゲーションメニュー */
+.nav-menu {
+  background-color: #333; /* メニューの背景色 */
+  color: #fff; /* メニューテキストの色 */
+}
+.menu-list {
+  display: flex;
+  padding-left: 0;
+  justify-content: center; /* メニューアイテムを中央揃えに */
+}
+.menu-item {
+  /* border-left: 1px solid #fff; */ /* メニューアイテムの左ボーダー */ 
+  position: relative;
+  list-style: none;
+}
+/* .menu-item:last-child {
+  border-right: 1px solid #fff; 
+} */
+
+/* メニューアイテムのホバースタイル */
+.menu-item:hover .drop-menu-list {
+  visibility: visible; /* 下層メニューを表示 */
+}
+.menu-item a {
+  align-items: center;
+  color: #fff; /* メニューアイテム内のリンクテキストの色 */
+  display: flex;
+  height: 50px;
+  justify-content: center;
+  text-decoration: none; /* リンクの下線を非表示 */
+  width: 120px;
+}
+
+/* ドロップダウンメニュー */
+.drop-menu {
+  position: relative;
+}
+.drop-menu-list {
+  background-color: #696969; /* ドロップダウンメニューの背景色 */
+  padding-left: 0;
+  position: absolute;
+  top: 100%;
+  visibility: hidden; /* 下層メニューを非表示 */
+  width: max-content;
+  z-index: 1;
+}
+
+.drop-menu-item {
+    list-style: none;
+}
+
+
 /* レスポンシブデザイン用 */
 @media only screen and (max-width : 1000px){
 
