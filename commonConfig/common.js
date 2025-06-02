@@ -1,4 +1,8 @@
 $(function(){
+
+    //header共通部品の作成
+    $("#header").load("/commonConfig/header.html");
+
     /* JQueryが動作するか確認用 */
     // alert('スタートしました'); 
 
@@ -17,3 +21,8 @@ $(function(){
     //     });
     // });
 });
+
+//JQueryを使用しないheader共通部品の作成
+// fetch("header.html")
+//     .then((response) => response.text())
+//     .then((data) => document.querySelector("#header").innerHTML = data);

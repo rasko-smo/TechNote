@@ -5,11 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="index.css">
     <script src="commonConfig/jquery-3.7.1.min.js"></script>
-    <script src="commonConfig/common.js"></script>
+    <!-- <script src="commonConfig/common.js"></script> -->
     <link rel="stylesheet" href="commonConfig/common.css">
     <title>ラスコの技術ノート</title>
 </head>
 <body>
+    <div id="header"></div>
+
     <div class="block">
         <p id="period">[2025-05-30/2025-06-02]</p>
         <h1 id="title">ラスコの技術ノート</h1>
@@ -91,5 +93,14 @@
         </ul>
         <a href="#tableOfContent" id="returnToTable">目次へ</a>
     </div>
+
+    <!-- <script>
+        $(function(){
+
+            $("#header").load("header.html");
+
+        });
+    </script> -->
+    <script src="commonConfig/common.js"></script>
 </body>
 </html>
