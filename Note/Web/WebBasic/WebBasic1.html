@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="../../../commonConfig/jquery-3.7.1.min.js"></script>
+    <script src="../../../commonConfig/common.js"></script>
+    <link rel="stylesheet" href="../../../commonConfig/common.css">
+    <title>Webを支える技術</title>
+</head>
+<body>
+    <div class="block">
+        <h1>Webを支える技術:基本</h1>
+    </div>
+    <div class="block">
+        <h2>リクエストとレスポンスは文字列のやり取り</h2>
+        <p>
+            〇確認　curl（Client　for　URL)コマンド<br>
+            →サーバーにリクエストを送信し、レスポンスを受け取るツール
+        </p>
+        <p>
+            〇前提<br>
+            ・VSCodeの拡張機能「Live　Server」を利用</li>
+        </p>
+        <p>
+            〇試行<br>
+            ★オプション　-v：詳細を表示する<br>
+            コマンド　$ curl -v http://127.0.0.1:5500/memberList.html
+        </p>
+        <p>
+            〇実行結果<br>
+            >:リクエスト<br>
+
+            ーー開始行ーーーーーーーーーーーーーー<br>
+
+            >  GET /memberList.html HTTP/1.1<br>
+
+            ーーヘッダーーーーーーーーーーーーーー<br>
+
+            > Host: 127.0.0.1:5500<br>
+
+            > User-Agent:curl/8.9.1<br>
+
+            > Accept: */*<br>
+
+            ーーボディーーーーーーーーーーーーーー<br>
+
+            (空)<br>
+        </p>
+    </div>
+    <div class="block">
+        <a href="../../../index.html">サイトTopに戻る</a>
+        /<a href="../Web.html">Webを支える技術ページTopに戻る</a>
+        /<a href="../Web.html#WebBasic">基本の目次に戻る</a>
+    </div>
+</body>
+</html>

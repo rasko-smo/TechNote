@@ -22,7 +22,7 @@ h1 {
 /* 小見出し */
 h2, h3 {
     color: cadetblue;
-    padding-left: 20px;
+    /* padding-left: 20px; */
 }
 
 /* a要素の上にカーソルがある場合に対象文字を斜めにする */
