@@ -1,159 +1,69 @@
-<header>
-    <nav class="nav-menu">
-        <ul class="menu-list">
-            <li class="menu-item">
-                <a href="#">Top</a>
-            </li>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="commonConfig/jquery-3.7.1.min.js"></script>
+    <!-- <script src="commonConfig/common.js"></script> -->
+    <link rel="stylesheet" href="header.css">
+    <title></title>
+</head>
+<body>
+    <div id="header">
 
-            <li class="menu-item drop-menu">
-                <a href="#">言語</a>
-                <ul class="drop-menu-list">
-                    <li class="drop-menu-item">
-                    <a href="#">Java</a>
-                    </li>
-                    <li class="drop-menu-item">
-                    <a href="#">HTML</a>
-                    </li>
-                    <li class="drop-menu-item">
-                    <a href="#">CSS</a>
-                    </li>
-                    <li class="drop-menu-item">
-                    <a href="#">JavaScript</a>
-                    </li>
-                    <li class="drop-menu-item">
-                    <a href="#">MySQL</a>
-                    </li>
-                    <li class="drop-menu-item">
-                    <a href="#">Python</a>
-                    </li>
-                </ul>
-            </li>
+        <div class="headerItem">
+            Top
+        </div>
 
-            <li class="menu-item">
-                <a href="#">ツール</a>
-                <ul class="drop-menu-list">
-                    <li class="drop-menu-item">
-                    <a href="#">Eclipse</a>
-                    </li>
-                    <li class="drop-menu-item">
-                    <a href="#">VSCode</a>
-                    </li>
-                    <li class="drop-menu-item">
-                    <a href="#">Git</a>
-                    </li>
-                    <li class="drop-menu-item">
-                    <a href="#">Linux</a>
-                    </li>
-                </ul>
-            </li>
+        <div class="headerItem">
+            <a href="">言語</a>
+            <ul class="dropdown">
+                <li class="dropdownItem"><a href="">Java</a></li>
+                <li class="dropdownItem"><a href="">HTML</a></li>
+                <li class="dropdownItem"><a href="">CSS</a></li>
+                <li class="dropdownItem"><a href="">JavaScript</a></li>
+                <li class="dropdownItem"><a href="">MySQL</a></li>
+                <li class="dropdownItem"><a href="">Python</a></li>
+            </ul>
+        </div>
 
-            <li class="menu-item">
-                <a href="#">CS</a>
-                <ul class="drop-menu-list">
-                    <li class="drop-menu-item">
-                    <a href="#">Webを支える技術</a>
-                    </li>
-                </ul>
-            </li>
+        <div class="headerItem">
+            <a href="">ツール</a>
+            <ul class="dropdown">
+                <li class="dropdownItem"><a href="">Eclipse</a></li>
+                <li class="dropdownItem"><a href="">VSCode</a></li>
+                <li class="dropdownItem"><a href="">Git</a></li>
+                <li class="dropdownItem"><a href="">Linux</a></li>
+            </ul>
+        </div>
 
-            <li class="menu-item">
-                <a href="#">開発</a>
-                <ul class="drop-menu-list">
-                    <li class="drop-menu-item">
-                    <a href="#">要件定義</a>
-                    </li>
-                    <li class="drop-menu-item">
-                    <a href="#">設計</a>
-                    </li>
-                    <li class="drop-menu-item">
-                    <a href="#">開発</a>
-                    </li>
-                    <li class="drop-menu-item">
-                    <a href="#">テスト</a>
-                    </li>
-                    <li class="drop-menu-item">
-                    <a href="#">リリース</a>
-                    </li>
-                </ul>
-            </li>
+        <div class="headerItem">
+            <a href="">CS</a>
+            <ul class="dropdown">
+                <li class="dropdownItem"><a href="">Web</a></li>
+            </ul>
+        </div>
 
-            <li class="menu-item">
-                <a href="#">その他</a>
-                <ul class="drop-menu-list">
-                    <li class="drop-menu-item">
-                    <a href="#">参考図書・Webページ</a>
-                    </li>
-                    <li class="drop-menu-item">
-                    <a href="#">自作アプリ</a>
-                    </li>
-                    <li class="drop-menu-item">
-                    <a href="#">暗記道場</a>
-                    </li>
-                </ul>
-            </li>
-        </ul>
-    </nav>
+        <div class="headerItem">
+            <a href="">開発</a>
+            <ul class="dropdown">
+                <li class="dropdownItem"><a href="">要件定義</a></li>
+                <li class="dropdownItem"><a href="">設計</a></li>
+                <li class="dropdownItem"><a href="">開発</a></li>
+                <li class="dropdownItem"><a href="">テスト</a></li>
+                <li class="dropdownItem"><a href="">リリース</a></li>
+            </ul>
+        </div>
 
+        <div class="headerItem">
+            <a href="">その他</a>
+            <ul class="dropdown">
+                <li class="dropdownItem"><a href="">参考図書等</a></li>
+                <li class="dropdownItem"><a href="">自作アプリ</a></li>
+                <li class="dropdownItem"><a href="">暗記道場</a></li>
+            </ul>
+        </div>
 
-
-
-
-
-
-
-
-
-
-
-
-    <!-- <div class="headerButton">Top</div>
-
-    <div class="headerButton">
-        <a href="">言語</a>
-        <ul class="dropdownList">
-            <li class="dropdownItem">Java</li>
-            <li class="dropdownItem">HTML</li>
-            <li class="dropdownItem">CSS</li>
-            <li class="dropdownItem">JavaScript</li>
-            <li class="dropdownItem">MySQL</li>
-            <li class="dropdownItem">Python</li>
-        </ul>
     </div>
-    
-    <div class="headerButton">
-        <a href="">ツール</a>
-        <ul class="dropdownList">
-            <li class="dropdownItem">Eclipse</li>
-            <li class="dropdownItem">VSCode</li>
-            <li class="dropdownItem">Git</li>
-            <li class="dropdownItem">Linux</li>
-        </ul>
-    </div>
-    
-    <div class="headerButton">
-        <a href="">CS</a>
-        <ul class="dropdownList">
-            <li class="dropdownItem">Webを支える技術</li>
-        </ul>
-    </div>
-
-    <div class="headerButton">
-        <a href="">開発</a>
-        <ul class="dropdownList">
-            <li class="dropdownItem">要件定義</li>
-            <li class="dropdownItem">設計</li>
-            <li class="dropdownItem">開発</li>
-            <li class="dropdownItem">テスト</li>
-            <li class="dropdownItem">リリース</li>
-        </ul>
-    </div>
-    
-    <div class="headerButton">
-        <a href="">その他</a>
-        <ul class="dropdownList">
-            <li class="dropdownItem">参考図書・Webページ</li>
-            <li class="dropdownItem">自作アプリ</li>
-            <li class="dropdownItem">暗記道場</li>
-        </ul>
-    </div> -->
-</header>
+</body>
+</html>
