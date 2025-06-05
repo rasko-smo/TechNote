@@ -75,7 +75,6 @@ a:hover {
     color: white;
 }
 
-/* ヘッダーのリンクはホバー時にイタリックにしない */
 .headerItem:hover a{
     font-style: normal;
 }
@@ -85,8 +84,8 @@ a:hover {
     position: absolute;
     top: 60px;
     width: 100%;
-    list-style: none;
     padding-left: 0;
+    list-style: none;
 }
 
 .headerItem:hover .dropdown {
@@ -103,4 +102,8 @@ a:hover {
 
 .dropdownItem:hover {
     background-color: rgb(116, 208, 177);
+}
+
+.block {
+    background-color: blueviolet;
 }
