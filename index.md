@@ -3,13 +3,15 @@ layout: default
 title: ラスコの技術ノート
 css: index.css
 ---
-<div class="block">
-    <p id="period">[2025-05-30/2025-06-02]</p>
-    <h1 id="title">ラスコの技術ノート</h1>
-    <p id="explainSite">IT技術に関して学んだことを、備忘のため記載しています。</p>
-</div>
+    <div class="block">
+        <p id="period">[2025-05-30/2025-06-02]</p>
+        <h1 id="title">ラスコの技術ノート</h1>
+        <p id="explainSite">IT技術に関して学んだことを、備忘のため記載しています。</p>
+    </div>
+    
+    <div id="separateLine"></div>
 
-<div id="tableOfContent" class="block">
+<div id="tableOfContent">
     <h2 class="tableTitle">目次</h2>
     <div class="tableIndex">
         <div class="indexBlock">
@@ -226,3 +228,4 @@ css: index.css
         </div>
     </div>
 </div>
+<div id="separateLine"></div>
