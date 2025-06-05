@@ -11,17 +11,58 @@
     text-align: center;
 }
 
-/* 目次へ戻るボタン */
-/* #returnToTable {
-    padding-left: 20px;
-} */
+#tableOfContent {
+    /* background-color: brown; */
+    padding: 2%;
+}
 
-#tableIndex {
+.tableTitle {
+    margin-bottom: 10px;
+}
+
+.indexTitle {
+    text-align: center;
+}
+
+.indexTitle a {
+    text-decoration: none;
+    color: cadetblue;
+}
+
+.tableIndex {
     width: 100%;
     display: flex;
     flex-flow: row;
+    /* background-color: aquamarine; */
 }
 
-#tableIndex ul {
+.indexBlock {
+    width: calc(100% / 5);
+    border: 4px outset;
+}
+
+#separateLine {
+    height: 5px;
+    /* background-color: cadetblue; */
+    border-bottom: 5px solid cadetblue;
+}
+
+.grammarBlock {
+    width: calc(100% / 6);
+    border: 4px outset;
+}
+
+.toolBlock {
+    width: calc(100% / 4);
+    border: 4px outset;
+}
+
+.devBlock {
+    width: calc(100% / 5);
+    border: 4px outset;
+}
+
+.otherBlock {
     width: calc(100% / 3);
+    border: 4px outset;
 }
