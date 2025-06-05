@@ -48,7 +48,7 @@ a:hover {
 }
 
 #header {
-    width: 100vw;
+    width: 100%;
     margin: 0;
     display: flex;
     position: sticky;
@@ -110,6 +110,3 @@ a:hover {
     background-color: rgb(116, 208, 177);
 }
 
-.block {
-    background-color: blueviolet;
-}
