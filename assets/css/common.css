@@ -80,6 +80,11 @@ a:hover {
     font-style: normal;
 }
 
+/* divブロックにカーソルが当たった際に直下のaタグのリンクをクリックできる処理について、ポインターの種類を変更する設定 */
+.linkBlock {
+    cursor: pointer;
+}
+
 .dropdown {
     display: none;
     position: absolute;

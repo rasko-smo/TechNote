@@ -79,6 +79,10 @@ a:hover {
     font-style: normal;
 }
 
+.linkBlock {
+    cursor: pointer;
+}
+
 .dropdown {
     display: none;
     position: absolute;
