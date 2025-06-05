@@ -48,7 +48,6 @@ css: index.css
         <li>Servlet</li>
         <li>JSP</li>
     </ul>
-    <a href="#tableOfContent" id="returnToTable">目次へ</a>
 </div>
 
 <div id="HTML" class="block">
@@ -56,7 +55,6 @@ css: index.css
     <ul>
         <li>文法</li>
     </ul>
-    <a href="#tableOfContent" id="returnToTable">目次へ</a>
 </div>
 
 <div id="CSS" class="block">
@@ -64,7 +62,6 @@ css: index.css
     <ul>
         <li>文法</li>
     </ul>
-    <a href="#tableOfContent" id="returnToTable">目次へ</a>
 </div>
 
 <div id="VSCode" class="block">
@@ -74,7 +71,6 @@ css: index.css
             機能
         </li>
     </ul>
-    <a href="#tableOfContent" id="returnToTable">目次へ</a>
 </div>
 
 <div id="Web" class="block">
@@ -82,5 +78,4 @@ css: index.css
     <ul>
         <li>基本</li>
     </ul>
-    <a href="#tableOfContent" id="returnToTable">目次へ</a>
 </div>

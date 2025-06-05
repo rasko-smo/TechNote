@@ -1,2 +1,6 @@
 # title: Rasko's TechNote
 description: GitHub Pages with Jekyll
+
+# URLの設定
+url: "https://rasko-smo.github.io"
+baseurl: "/TechNote"
