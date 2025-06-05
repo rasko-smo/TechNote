@@ -67,7 +67,7 @@ css: index.css
 
 <div id="separateLine"></div>
 
-<div class="block">
+<div class="block" id="language">
     <h2 class="tableTitle">言語</h2>
     <div class="tableIndex">
         <div id="Java" class="grammarBlock">
