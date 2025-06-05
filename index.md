@@ -1,6 +1,7 @@
 ---
 layout: default
 title: ラスコの技術ノート
+css: index.css
 ---
 <div class="block">
     <p id="period">[2025-05-30/2025-06-02]</p>
