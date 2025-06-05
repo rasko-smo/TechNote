@@ -1,5 +1,5 @@
 ---
 layout: default
-title: ホーム
+title: 
 ---
 <h1>タイトル</h1>
