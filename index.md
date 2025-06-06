@@ -20,19 +20,19 @@ css: index.css
                 <li><a href="#Java">Java</a></li>
                 <li><a href="#HTML">HTML</a></li>
                 <li><a href="#CSS">CSS</a></li>
-                <li><a href="test2.html">JavaScript</a></li>
-                <li>MySQL</li>
-                <li>Python</li>
+                <li><a href="#JavaScript">JavaScript</a></li>
+                <li><a href="#MySQL">MySQL</a></li>
+                <li><a href="#Python">Python</a></li>
             </ul>
         </div>
 
         <div class="indexBlock indexMiniBlock">
             <h3 class="indexTitle"><a href="">ツール</a></h3>
             <ul>
-                <li>Eclipse</li>
+                <li><a href="#Eclipse">Eclipse</a></li>
                 <li><a href="#VSCode">VSCode</a></li>
-                <li>Git</li>
-                <li>Linux</li>
+                <li><a href="#Git">Git</a></li>
+                <li><a href="#Linux">Linux</a></li>
             </ul>
         </div>
 
@@ -46,20 +46,20 @@ css: index.css
         <div class="indexBlock indexMiniBlock">
             <h3 class="indexTitle"><a href="">開発</a></h3>
             <ul>
-                <li>要件定義</li>
-                <li>設計</li>
-                <li>開発</li>
-                <li>テスト</li>
-                <li>リリース</li>
+                <li><a href="">要件定義</a></li>
+                <li><a href="">設計</a></li>
+                <li><a href="">開発</a></li>
+                <li><a href="">テスト</a></li>
+                <li><a href="">リリース</a></li>
             </ul>
         </div>
 
         <div class="indexBlock indexMiniBlock">
             <h3 class="indexTitle"><a href="">その他</a></h3>
             <ul>
-                <li>参考図書・Webページ</li>
-                <li>自作アプリ</li>
-                <li>暗記道場</li>
+                <li><a href="">参考図書・Webページ</a></li>
+                <li><a href="">自作アプリ</a></li>
+                <li><a href="">暗記道場</a></li>
             </ul>
         </div>
     </div>
@@ -71,25 +71,25 @@ css: index.css
     <h2 class="tableTitle">言語</h2>
     <div class="tableIndex">
         <div id="Java" class="grammarBlock indexMiniBlock">
-            <h3 class="indexTitle"><a href="">Java</a></h3>
+            <h3 class="indexTitle"><a href="{{ '/Note/language/Java/Java.html' |relative_url }}">Java</a></h3>
             <ul>
-                <li>文法</li>
-                <li>Servlet</li>
-                <li>JSP</li>
+                <li><a href="{{ '/Note/language/Java/Java.html#JavaGrammar' |relative_url }}">文法</a></li>
+                <li><a href="{{ '/Note/language/Java/Java.html#Servlet' |relative_url }}">Servlet</a></li>
+                <li><a href="{{ '/Note/language/Java/Java.html#JSP' |relative_url }}">JSP</a></li>
             </ul>
         </div>   
 
         <div id="HTML" class="grammarBlock indexMiniBlock">
-            <h3 class="indexTitle"><a href="">HTML</a></h3>
+            <h3 class="indexTitle"><a href="{{ '/Note/language/HTML/HTML.html' |relative_url }}">HTML</a></h3>
             <ul>
-                <li>文法</li>
+                <li><a href="{{ '/Note/language/HTML/HTML.html#HTMLGrammar' |relative_url }}">文法</a></li>
             </ul>
         </div>
 
         <div id="CSS" class="grammarBlock indexMiniBlock">
-            <h3 class="indexTitle"><a href="">CSS</a></h3>
+            <h3 class="indexTitle"><a href="{{ '/Note/language/CSS/CSS.html' |relative_url }}">CSS</a></h3>
             <ul>
-                <li>文法</li>
+                <li><a href="{{ '/Note/language/CSS/CSS.html#CSSGrammar' |relative_url }}">文法</a></li>
             </ul>
         </div>
 
@@ -127,10 +127,10 @@ css: index.css
         </div>
 
         <div id="VSCode" class="toolBlock indexMiniBlock">
-            <h3 class="indexTitle"><a href="">VSCode</a></h3>
+            <h3 class="indexTitle"><a href="{{ '/Note/tool/VSCode/VSCode.html' |relative_url }}">VSCode</a></h3>
             <ul>
                 <li>文法</li>
-                <li>機能</li>
+                <li><a href="{{ '/Note/tool/VSCode/VSCode.html#VSCodeFunction' |relative_url }}">機能</li>
             </ul>
         </div>
 
@@ -154,9 +154,9 @@ css: index.css
     <h2 class="tableTitle">Computer Science</h2>
     <div class="tableIndex">
         <div id="Web" class="csBlock indexMiniBlock">
-            <h3 class="indexTitle"><a href="">Web</a></h3>
+            <h3 class="indexTitle"><a href="{{ '/Note/CS/Web/Web.html' |relative_url }}">Web</a></h3>
             <ul>
-                <li>基本</li>
+                <li><a href="{{ '/Note/CS/Web/Web.html#WebBasic' |relative_url }}">基本</a></li>
             </ul>
         </div>
 
