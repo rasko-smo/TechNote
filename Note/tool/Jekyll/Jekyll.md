@@ -12,6 +12,8 @@ title: Jekyll
         <ul>
             <li>
                 <a href="#JekyllBasic">基本</a>
+            </li>
+            <li>
                 <a href="#JekyllFeature">仕様</a>
             </li>
         </ul>
@@ -27,7 +29,7 @@ title: Jekyll
     <div id="JekyllFeature" class="block">
         <h2>仕様</h2>
         <ul>
-            <li><a href="{{ '/Note/tool/Jekyll/JekyllFeature/' | relative_url }}">仕様1</a></li>
+            <li><a href="{{ '/Note/tool/Jekyll/JekyllFeature/JekyllFeature.html' | relative_url }}">仕様1</a></li>
         </ul>
     </div>
 </body>
