@@ -1,13 +1,7 @@
-<!DOCTYPE html>
-<html lang="ja">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="../../../commonConfig/jquery-3.7.1.min.js"></script>
-    <script src="../../../commonConfig/common.js"></script>
-    <link rel="stylesheet" href="../../../commonConfig/common.css">
-    <title>JSP</title>
-</head>
+---
+layout: default
+title: Java：JSP
+---
 <body>
     <div class="block">
         <h1>JSP</h1>
@@ -21,11 +15,6 @@
         そこで開発者たちはJSP固有の実行環境を用意する代わりにServletへの変換プログラムを作成し、<br>
         実際の処理はServletの実行環境に任せるようにした、という経緯があるらしい。
         </p>
-    </div>
-    <div class="block">
-        <a href="../../../index.html">サイトTopに戻る</a>
-        /<a href="../Java.html">JavaページTopに戻る</a>
-        /<a href="../Java.html#JSP">JSPの目次に戻る</a>
     </div>
 </body>
 </html>

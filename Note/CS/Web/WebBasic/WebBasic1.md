@@ -1,16 +1,10 @@
-<!DOCTYPE html>
-<html lang="ja">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="../../../commonConfig/jquery-3.7.1.min.js"></script>
-    <script src="../../../commonConfig/common.js"></script>
-    <link rel="stylesheet" href="../../../commonConfig/common.css">
-    <title>Webを支える技術</title>
-</head>
+---
+layout: default
+title: Web：基本
+---
 <body>
     <div class="block">
-        <h1>Webを支える技術:基本</h1>
+        <h1>Web:基本</h1>
     </div>
     <div class="block">
         <h2>リクエストとレスポンスは文字列のやり取り</h2>
@@ -47,11 +41,6 @@
 
             (空)<br>
         </p>
-    </div>
-    <div class="block">
-        <a href="../../../index.html">サイトTopに戻る</a>
-        /<a href="../Web.html">Webを支える技術ページTopに戻る</a>
-        /<a href="../Web.html#WebBasic">基本の目次に戻る</a>
     </div>
 </body>
 </html>

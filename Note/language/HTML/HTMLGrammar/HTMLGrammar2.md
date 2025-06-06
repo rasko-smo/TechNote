@@ -1,13 +1,7 @@
-<!DOCTYPE html>
-<html lang="ja">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="../../../commonConfig/jquery-3.7.1.min.js"></script>
-    <script src="../../../commonConfig/common.js"></script>
-    <link rel="stylesheet" href="../../../commonConfig/common.css">
-    <title>HTML文法</title>
-</head>
+---
+layout: default
+title: HTML：文法
+---
 <body>
     <div class="block">
         <h1>HTML：文法</h1>
@@ -51,13 +45,7 @@
         </div>
         
         <p>出典サイト：
-        <a href="https://web-camp.io/magazine/archives/85024/">DMM WEBCAMP 『HTMLタグをそのまま表示させる方法を解説！pre・codeタグや特殊文字の使用方法』</a></p>
-    </div>
-
-    <div class="block">
-        <a href="../../../index.html">サイトTopに戻る</a>
-        /<a href="../HTML.html">HTMLページTopに戻る</a>
-        /<a href="../HTML.html#HTMLGrammar">HTML文法の目次に戻る</a>
+        <a href="{{ 'https://web-camp.io/magazine/archives/85024/' |relative_url }}">DMM WEBCAMP 『HTMLタグをそのまま表示させる方法を解説！pre・codeタグや特殊文字の使用方法』</a></p>
     </div>
 </body>
 </html>

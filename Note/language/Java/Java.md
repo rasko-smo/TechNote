@@ -1,13 +1,7 @@
-<!DOCTYPE html>
-<html lang="ja">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="../../commonConfig/jquery-3.7.1.min.js"></script>
-    <script src="../../commonConfig/common.js"></script>
-    <link rel="stylesheet" href="../../commonConfig/common.css">
-    <title>Java</title>
-</head>
+---
+layout: default
+title: Java
+---
 <body>
     <div class="block">
         <h1>Java</h1>
@@ -38,12 +32,8 @@
     <div id="JSP" class="block">
         <h2>JSP</h2>
         <ul>
-            <li><a href="JSP/JavaJSP1.html">JSP実行時の仕組み</a></li>
+            <li><a href="{{ 'JSP/JavaJSP1.html' |relative_url }}">JSP実行時の仕組み</a></li>
         </ul>
-    </div>
-
-    <div class="block">
-        <a href="../../index.html">サイトTopに戻る</a>
     </div>
 </body>
 </html>

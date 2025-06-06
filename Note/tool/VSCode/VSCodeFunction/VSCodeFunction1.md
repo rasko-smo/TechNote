@@ -1,13 +1,7 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="../../../commonConfig/jquery-3.7.1.min.js"></script>
-    <script src="../../../commonConfig/common.js"></script>
-    <link rel="stylesheet" href="../../../commonConfig/common.css">
-    <title>VSCode機能</title>
-</head>
+---
+layout: default
+title: VSCode：機能
+---
 <body>
     <div class="block">
         <h1>VSCode：機能</h1>
@@ -65,12 +59,6 @@
                 <p>外部と接続を行わない限りでは「キャンセル」を選択して問題ない。</p>
             </li>
         </ol>
-    </div>
-
-    <div class="block">
-        <a href="../../../index.html">サイトTopに戻る</a>
-        /<a href="../VSCode.html">VSCodeページTopに戻る</a>
-        /<a href="../VSCode.html">VSCode機能の目次に戻る</a>
     </div>
 </body>
 </html>

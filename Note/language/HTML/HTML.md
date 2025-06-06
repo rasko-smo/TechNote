@@ -1,0 +1,30 @@
+---
+layout: default
+title: HTML
+---
+<body>
+    <div class="block">
+        <h1>HTML</h1>
+    </div>
+    <div class="block">
+        <h2>目次</h2>
+        <ul>
+            <li>
+                <a href="#HTMLGrammar">文法</a>
+            </li>
+        </ul>
+    </div>
+
+    <div id="HTMLGrammar" class="block">
+        <h2>文法</h2>
+        <ul>
+            <li>
+                <a href="{{ 'HTMLGrammar/HTMLGrammar1.html' |relative_url }}">アコーディオンメニュー(折り畳み可能な文章ブロック)の作り方</a>
+            </li>
+            <li>
+                <a href="{{ 'HTMLGrammar/HTMLGrammar2.html' |relative_url }}">HTML上でHTMLタグをそのまま表示させる方法</a>
+            </li>
+        </ul>
+    </div>
+</body>
+</html>
