@@ -33,6 +33,7 @@ css: index.css
                 <li><a href="#VSCode">VSCode</a></li>
                 <li><a href="#Git">Git</a></li>
                 <li><a href="#Linux">Linux</a></li>
+                <li><a href="#Jekyll">Jekyll</a></li>
             </ul>
         </div>
 
@@ -145,6 +146,14 @@ css: index.css
             <h3 class="indexTitle"><a href="">Linux</a></h3>
             <ul>
                 <li>文法</li>
+            </ul>
+        </div>
+
+        <div id="Jekyll" class="toolBlock indexMiniBlock">
+            <h3 class="indexTitle"><a href="{{ '/Note/tool/Jkyll/Jkyll.html' |relative_url }}">Jekyll</a></h3>
+            <ul>
+                <li><a href="{{ '/Note/tool/Jkyll/Jkyll.html#JkyllBasic' |relative_url }}">基本</a></li>
+                <li><a href="{{ '/Note/tool/Jkyll/Jkyll.html#JkyllFeature' |relative_url }}">仕様</a></li>
             </ul>
         </div>
     </div>
