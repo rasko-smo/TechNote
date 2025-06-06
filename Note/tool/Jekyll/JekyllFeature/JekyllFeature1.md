@@ -7,7 +7,7 @@ title: Jekyll：仕様
         <h1>Jekyll：仕様</h1>
     </div>
     <div class="block">
-            <h2>仕様</h3> 
+            <h2>仕様</h2> 
 
             <!-- コードを表示するときはcodeTextクラスを使う -->
             <!-- <div class="codeText">
