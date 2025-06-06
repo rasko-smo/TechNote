@@ -22,7 +22,7 @@ title: Jekyll
     <div id="JekyllBasic" class="block">
         <h2>基本</h2>
         <ul>
-            <li><a href="{{ '/Note/tool/Jekyll/JekyllBasic/JekyllBasic1.html' | relative_url }}">基本1</a></li>
+            <li><a href="{{ '/Note/tool/Jekyll/JekyllBasic/JekyllBasic1.html' | relative_url }}">Jekyllの環境構築</a></li>
         </ul>
     </div>
 
