@@ -15,7 +15,7 @@ css: index.css
     <h2 class="tableTitle">目次</h2>
     <div class="tableIndex">
         <div class="indexBlock indexMiniBlock">
-            <h3 class="indexTitle"><a href="">言語</a></h3>
+            <h3 class="indexTitle"><a href="#language">言語</a></h3>
             <ul>
                 <li><a href="#Java">Java</a></li>
                 <li><a href="#HTML">HTML</a></li>
@@ -27,7 +27,7 @@ css: index.css
         </div>
 
         <div class="indexBlock indexMiniBlock">
-            <h3 class="indexTitle"><a href="">ツール</a></h3>
+            <h3 class="indexTitle"><a href="#tool">ツール</a></h3>
             <ul>
                 <li><a href="#Eclipse">Eclipse</a></li>
                 <li><a href="#VSCode">VSCode</a></li>
@@ -38,14 +38,14 @@ css: index.css
         </div>
 
         <div class="indexBlock indexMiniBlock">
-            <h3 class="indexTitle"><a href="">CS</a></h3>
+            <h3 class="indexTitle"><a href="#CS">CS</a></h3>
             <ul>
                 <li><a href="#Web">Web</a></li>
             </ul>
         </div>
 
         <div class="indexBlock indexMiniBlock">
-            <h3 class="indexTitle"><a href="">開発</a></h3>
+            <h3 class="indexTitle"><a href="#dev">開発</a></h3>
             <ul>
                 <li><a href="">要件定義</a></li>
                 <li><a href="">設計</a></li>
@@ -56,7 +56,7 @@ css: index.css
         </div>
 
         <div class="indexBlock indexMiniBlock">
-            <h3 class="indexTitle"><a href="">その他</a></h3>
+            <h3 class="indexTitle"><a href="#other">その他</a></h3>
             <ul>
                 <li><a href="">参考図書・Webページ</a></li>
                 <li><a href="">自作アプリ</a></li>
