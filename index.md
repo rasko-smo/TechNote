@@ -116,7 +116,7 @@ css: index.css
     </div>
 </div>
     
-<div class="block">
+<div class="block" id="tool">
     <h2 class="tableTitle">ツール</h2>
     <div class="tableIndex">
         <div id="Eclipse" class="toolBlock indexMiniBlock">
@@ -150,7 +150,7 @@ css: index.css
     </div>
 </div>
 
-<div class="block">
+<div class="block" id="CS">
     <h2 class="tableTitle">Computer Science</h2>
     <div class="tableIndex">
         <div id="Web" class="csBlock indexMiniBlock">
@@ -163,7 +163,7 @@ css: index.css
     </div>
 </div>
 
-<div class="block">
+<div class="block" id="dev">
     <h2 class="tableTitle">開発</h2>
     <div class="tableIndex">
         <div id="development" class="devBlock indexMiniBlock">
@@ -203,7 +203,7 @@ css: index.css
     </div>
 </div>
 
-<div class="block">
+<div class="block" id="other">
     <h2 class="tableTitle">その他</h2>
     <div class="tableIndex">
         <div id="development" class="otherBlock indexMiniBlock">
