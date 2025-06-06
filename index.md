@@ -4,7 +4,7 @@ title: ラスコの技術ノート
 css: index.css
 ---
 <div class="block">
-    <p id="period">[2025-05-30/2025-06-02]</p>
+    <p id="period">[2025-05-30/2025-06-06]</p>
     <h1 id="title">ラスコの技術ノート</h1>
     <p id="explainSite">IT技術に関して学んだことを、備忘のため記載しています。</p>
 </div>
