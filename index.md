@@ -150,10 +150,10 @@ css: index.css
         </div>
 
         <div id="Jekyll" class="toolBlock indexMiniBlock">
-            <h3 class="indexTitle"><a href="{{ '/Note/tool/Jkyll/Jkyll.html' |relative_url }}">Jekyll</a></h3>
+            <h3 class="indexTitle"><a href="{{ '/Note/tool/Jekyll/Jekyll.html' |relative_url }}">Jekyll</a></h3>
             <ul>
-                <li><a href="{{ '/Note/tool/Jkyll/Jkyll.html#JkyllBasic' |relative_url }}">基本</a></li>
-                <li><a href="{{ '/Note/tool/Jkyll/Jkyll.html#JkyllFeature' |relative_url }}">仕様</a></li>
+                <li><a href="{{ '/Note/tool/Jekyll/Jekyll.html#JekyllBasic' |relative_url }}">基本</a></li>
+                <li><a href="{{ '/Note/tool/Jekyll/Jekyll.html#JekyllFeature' |relative_url }}">仕様</a></li>
             </ul>
         </div>
     </div>

@@ -1,10 +1,10 @@
 ---
 layout: default
-title: Jkyll：仕様
+title: Jekyll：仕様
 ---
 <body>
     <div class="block">
-        <h1>Jkyll：仕様</h1>
+        <h1>Jekyll：仕様</h1>
     </div>
     <div class="block">
             <h2>仕様</h3> 
