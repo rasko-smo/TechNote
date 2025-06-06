@@ -130,7 +130,7 @@ css: index.css
             <h3 class="indexTitle"><a href="{{ '/Note/tool/VSCode/VSCode.html' |relative_url }}">VSCode</a></h3>
             <ul>
                 <li>文法</li>
-                <li><a href="{{ '/Note/tool/VSCode/VSCode.html#VSCodeFunction' |relative_url }}">機能</li>
+                <li><a href="{{ '/Note/tool/VSCode/VSCode.html#VSCodeFunction' |relative_url }}">機能</a></li>
             </ul>
         </div>
 
