@@ -230,7 +230,7 @@ css: index.css
         </div>
 
         <div id="development" class="otherBlock indexMiniBlock">
-            <h3 class="indexTitle"><a href="">暗記道場</a></h3>
+            <h3 class="indexTitle"><a href="{{ '/workspace/test/test.html' |relative_url }}">暗記道場</a></h3>
             <ul>
                 <li></li>
             </ul>
