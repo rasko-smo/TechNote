@@ -71,12 +71,12 @@
     width: calc(100% / 3);
 }
 
-ul {
+.indexMiniBlock ul {
     padding: 5%;
     position: relative;
 }
 
-li {
+.indexMiniBlock ul li {
     list-style-type: none;
     border-left: 6px solid cadetblue; 
     background-color: rgb(178, 243, 221);
@@ -89,11 +89,11 @@ li {
     cursor: pointer;
 }
 
-li:hover {
+.indexMiniBlock ul li:hover {
     font-style: italic;
 }
 
-li a {
+.indexMiniBlock ul li a {
     text-decoration: none;
 }
 
