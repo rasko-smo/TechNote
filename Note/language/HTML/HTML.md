@@ -22,7 +22,7 @@ title: HTML
                 <a href="{{ 'HTMLGrammar/HTMLGrammar1.html' |relative_url }}">アコーディオンメニュー(折り畳み可能な文章ブロック)の作り方</a>
             </li>
             <li>
-                <a href="{{ 'HTMLGrammar/HTMLGrammar2.html' |relative_url }}">HTML上でHTMLタグをそのまま表示させる方法</a>
+                <a href="{{ '/Note/language/HTML/HTMLGrammar/HTMLGrammar2.html' |relative_url }}">HTML上でHTMLタグをそのまま表示させる方法</a>
             </li>
         </ul>
     </div>

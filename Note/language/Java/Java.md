@@ -32,7 +32,7 @@ title: Java
     <div id="JSP" class="block">
         <h2>JSP</h2>
         <ul>
-            <li><a href="{{ 'JSP/JavaJSP1.html' |relative_url }}">JSP実行時の仕組み</a></li>
+            <li><a href="{{ '/Note/language/Java/JSP/JavaJSP1.html' |relative_url }}">JSP実行時の仕組み</a></li>
         </ul>
     </div>
 </body>

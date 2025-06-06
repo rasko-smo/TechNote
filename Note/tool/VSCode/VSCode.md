@@ -18,7 +18,7 @@ title: VSCode
     <div id="VSCodeFunction" class="block">
         <h2>機能</h2>
         <ul>
-            <li><a href="{{ 'VSCodeFunction/VSCodeFunction1.html' |relative_url }}">VSCodeでブラウザのリアルタイム編集を行う</a></li>
+            <li><a href="{{ '/Note/tool/VSCode/VSCodeFunction/VSCodeFunction1.html' |relative_url }}">VSCodeでブラウザのリアルタイム編集を行う</a></li>
         </ul>
     </div>
 </body>

@@ -20,7 +20,7 @@ title: Web
     <div id="WebBasic" class="block">
         <h2>基本</h2>
         <ul>
-            <li><a href="{{ 'WebBasic/WebBasic1.html' |relative_url }}">リクエストとレスポンスは文字列のやり取り</a></li>
+            <li><a href="{{ '/Note/CS/Web/WebBasic/WebBasic1.html' |relative_url }}">リクエストとレスポンスは文字列のやり取り</a></li>
         </ul>
     </div>
 </body>
