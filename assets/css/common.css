@@ -42,6 +42,11 @@ a:hover {
     box-sizing: border-box;
 }
 
+/* ページ内リンクへ飛ぶときにヘッダーの高さ分下の位置に遷移するよう設定 */
+[id] {
+  scroll-margin-top: 60px;
+}
+
 #header {
     width: 100%;
     margin: 0;
@@ -120,6 +125,10 @@ a:hover {
     }
     .dropdown {
         top: 50px;
+    }
+
+    [id] {
+        scroll-margin-top: 50px;
     }
 }
 
