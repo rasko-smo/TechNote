@@ -27,4 +27,3 @@ title: HTML：文法
         <p>出典サイト：<a href="{{ 'https://magazine.techacademy.jp/magazine/30966' |relative_url }}">TechAcademy 『HTMLの折りたたみメニューを有効活用する方法を現役エンジニアが解説【初心者向け】』</a></p>
     </div>
 </body>
-</html>

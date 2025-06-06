@@ -48,4 +48,3 @@ title: HTML：文法
         <a href="{{ 'https://web-camp.io/magazine/archives/85024/' |relative_url }}">DMM WEBCAMP 『HTMLタグをそのまま表示させる方法を解説！pre・codeタグや特殊文字の使用方法』</a></p>
     </div>
 </body>
-</html>

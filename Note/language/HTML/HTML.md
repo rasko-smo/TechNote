@@ -27,4 +27,3 @@ title: HTML
         </ul>
     </div>
 </body>
-</html>

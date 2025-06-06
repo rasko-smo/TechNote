@@ -24,4 +24,3 @@ title: Web
         </ul>
     </div>
 </body>
-</html>
