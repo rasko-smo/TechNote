@@ -113,7 +113,7 @@ a:hover {
 }
 
 /* レスポンシブデザイン用 */
-@media only screen and (max-width : 1000px){
+@media only screen and (max-width : 400px){
     .headerItem {
         height: 30px;
         line-height: 30px;

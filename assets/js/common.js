@@ -18,7 +18,7 @@ function miniMode(event) {
 
 // 以下、レスポンシブデザイン仕様
 function handleResponsive(width){
-    if(width > 1000){
+    if(width > 400){
         document.querySelectorAll(".headerItem").forEach(function (div) {
             div.removeEventListener("click", miniMode);
         });
