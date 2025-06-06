@@ -36,11 +36,6 @@ a:hover {
     border-bottom: 1px solid cadetblue;
 }
 
-/* レスポンシブデザイン用 */
-@media only screen and (max-width : 1000px){
-
-}
-
 /* 以下、ヘッダー用 */
 * {
     margin: 0;
@@ -87,6 +82,10 @@ a:hover {
     cursor: pointer;
 }
 
+.topLinkBlock {
+    cursor: pointer;
+}
+
 .dropdown {
     display: none;
     position: absolute;
@@ -110,4 +109,23 @@ a:hover {
 
 .dropdownItem:hover {
     background-color: rgb(116, 208, 177);
+}
+
+/* レスポンシブデザイン用 */
+@media only screen and (max-width : 1000px){
+    .headerItem {
+        height: 30px;
+        line-height: 30px;
+    }
+    .dropdown {
+        top: 30px;
+    }
+}
+
+.disable-link {
+    pointer-events: none;
+}
+
+.hidden {
+  display: none;
 }

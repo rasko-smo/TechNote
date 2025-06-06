@@ -4,7 +4,7 @@ title: ラスコの技術ノート
 css: index.css
 ---
 <div class="block">
-    <p id="period">[2025-05-30/2025-06-05]</p>
+    <p id="period">[2025-05-30/2025-06-02]</p>
     <h1 id="title">ラスコの技術ノート</h1>
     <p id="explainSite">IT技術に関して学んだことを、備忘のため記載しています。</p>
 </div>
@@ -14,19 +14,19 @@ css: index.css
 <div id="tableOfContent">
     <h2 class="tableTitle">目次</h2>
     <div class="tableIndex">
-        <div class="indexBlock">
+        <div class="indexBlock indexMiniBlock">
             <h3 class="indexTitle"><a href="">言語</a></h3>
             <ul>
                 <li><a href="#Java">Java</a></li>
                 <li><a href="#HTML">HTML</a></li>
                 <li><a href="#CSS">CSS</a></li>
-                <li>JavaScript</li>
+                <li><a href="test2.html">JavaScript</a></li>
                 <li>MySQL</li>
                 <li>Python</li>
             </ul>
         </div>
 
-        <div class="indexBlock">
+        <div class="indexBlock indexMiniBlock">
             <h3 class="indexTitle"><a href="">ツール</a></h3>
             <ul>
                 <li>Eclipse</li>
@@ -36,14 +36,14 @@ css: index.css
             </ul>
         </div>
 
-        <div class="indexBlock">
+        <div class="indexBlock indexMiniBlock">
             <h3 class="indexTitle"><a href="">CS</a></h3>
             <ul>
                 <li><a href="#Web">Web</a></li>
             </ul>
         </div>
 
-        <div class="indexBlock">
+        <div class="indexBlock indexMiniBlock">
             <h3 class="indexTitle"><a href="">開発</a></h3>
             <ul>
                 <li>要件定義</li>
@@ -54,10 +54,10 @@ css: index.css
             </ul>
         </div>
 
-        <div class="indexBlock">
+        <div class="indexBlock indexMiniBlock">
             <h3 class="indexTitle"><a href="">その他</a></h3>
             <ul>
-                <li>参考図書等</li>
+                <li>参考図書・Webページ</li>
                 <li>自作アプリ</li>
                 <li>暗記道場</li>
             </ul>
@@ -70,7 +70,7 @@ css: index.css
 <div class="block" id="language">
     <h2 class="tableTitle">言語</h2>
     <div class="tableIndex">
-        <div id="Java" class="grammarBlock">
+        <div id="Java" class="grammarBlock indexMiniBlock">
             <h3 class="indexTitle"><a href="">Java</a></h3>
             <ul>
                 <li>文法</li>
@@ -79,35 +79,35 @@ css: index.css
             </ul>
         </div>   
 
-        <div id="HTML" class="grammarBlock">
+        <div id="HTML" class="grammarBlock indexMiniBlock">
             <h3 class="indexTitle"><a href="">HTML</a></h3>
             <ul>
                 <li>文法</li>
             </ul>
         </div>
 
-        <div id="CSS" class="grammarBlock">
+        <div id="CSS" class="grammarBlock indexMiniBlock">
             <h3 class="indexTitle"><a href="">CSS</a></h3>
             <ul>
                 <li>文法</li>
             </ul>
         </div>
 
-        <div id="JavaScript" class="grammarBlock">
+        <div id="JavaScript" class="grammarBlock indexMiniBlock">
             <h3 class="indexTitle"><a href="">JavaScript</a></h3>
             <ul>
                 <li>文法</li>
             </ul>
         </div>
         
-        <div id="MySQL" class="grammarBlock">
+        <div id="MySQL" class="grammarBlock indexMiniBlock">
             <h3 class="indexTitle"><a href="">MySQL</a></h3>
             <ul>
                 <li>文法</li>
             </ul>
         </div>
 
-        <div id="Python" class="grammarBlock">
+        <div id="Python" class="grammarBlock indexMiniBlock">
             <h3 class="indexTitle"><a href="">Python</a></h3>
             <ul>
                 <li>文法</li>
@@ -119,14 +119,14 @@ css: index.css
 <div class="block">
     <h2 class="tableTitle">ツール</h2>
     <div class="tableIndex">
-        <div id="Eclipse" class="toolBlock">
+        <div id="Eclipse" class="toolBlock indexMiniBlock">
             <h3 class="indexTitle"><a href="">Eclipse</a></h3>
             <ul>
                 <li>文法</li>
             </ul>
         </div>
 
-        <div id="VSCode" class="toolBlock">
+        <div id="VSCode" class="toolBlock indexMiniBlock">
             <h3 class="indexTitle"><a href="">VSCode</a></h3>
             <ul>
                 <li>文法</li>
@@ -134,14 +134,14 @@ css: index.css
             </ul>
         </div>
 
-        <div id="Git" class="toolBlock">
+        <div id="Git" class="toolBlock indexMiniBlock">
             <h3 class="indexTitle"><a href="">Git</a></h3>
             <ul>
                 <li>文法</li>
             </ul>
         </div>
 
-        <div id="Linux" class="toolBlock">
+        <div id="Linux" class="toolBlock indexMiniBlock">
             <h3 class="indexTitle"><a href="">Linux</a></h3>
             <ul>
                 <li>文法</li>
@@ -153,7 +153,7 @@ css: index.css
 <div class="block">
     <h2 class="tableTitle">Computer Science</h2>
     <div class="tableIndex">
-        <div id="Web" class="toolBlock">
+        <div id="Web" class="csBlock indexMiniBlock">
             <h3 class="indexTitle"><a href="">Web</a></h3>
             <ul>
                 <li>基本</li>
@@ -166,35 +166,35 @@ css: index.css
 <div class="block">
     <h2 class="tableTitle">開発</h2>
     <div class="tableIndex">
-        <div id="development" class="devBlock">
+        <div id="development" class="devBlock indexMiniBlock">
             <h3 class="indexTitle"><a href="">要件定義</a></h3>
             <ul>
                 <li>基本</li>
             </ul>
         </div>
 
-        <div id="development" class="devBlock">
+        <div id="development" class="devBlock indexMiniBlock">
             <h3 class="indexTitle"><a href="">設計</a></h3>
             <ul>
                 <li>基本</li>
             </ul>
         </div>
 
-        <div id="development" class="devBlock">
+        <div id="development" class="devBlock indexMiniBlock">
             <h3 class="indexTitle"><a href="">開発</a></h3>
             <ul>
                 <li>基本</li>
             </ul>
         </div>
 
-        <div id="development" class="devBlock">
+        <div id="development" class="devBlock indexMiniBlock">
             <h3 class="indexTitle"><a href="">テスト</a></h3>
             <ul>
                 <li>基本</li>
             </ul>
         </div>
 
-        <div id="development" class="devBlock">
+        <div id="development" class="devBlock indexMiniBlock">
             <h3 class="indexTitle"><a href="">リリース</a></h3>
             <ul>
                 <li>基本</li>
@@ -206,21 +206,21 @@ css: index.css
 <div class="block">
     <h2 class="tableTitle">その他</h2>
     <div class="tableIndex">
-        <div id="development" class="otherBlock">
+        <div id="development" class="otherBlock indexMiniBlock">
             <h3 class="indexTitle"><a href="">参考図書・Webページ</a></h3>
             <ul>
                 <li></li>
             </ul>
         </div>
 
-        <div id="development" class="otherBlock">
+        <div id="development" class="otherBlock indexMiniBlock">
             <h3 class="indexTitle"><a href="">自作アプリ</a></h3>
             <ul>
                 <li></li>
             </ul>
         </div>
 
-        <div id="development" class="otherBlock">
+        <div id="development" class="otherBlock indexMiniBlock">
             <h3 class="indexTitle"><a href="">暗記道場</a></h3>
             <ul>
                 <li></li>
@@ -229,3 +229,5 @@ css: index.css
     </div>
 </div>
 <div id="separateLine"></div>
+
+<script src="{{ '/assets/js/index.js' |relative_url }}"></script>

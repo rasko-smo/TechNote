@@ -36,33 +36,73 @@
     /* background-color: aquamarine; */
 }
 
-.indexBlock {
-    width: calc(100% / 5);
-    border: 4px outset;
-}
-
 #separateLine {
     height: 5px;
     /* background-color: cadetblue; */
     border-bottom: 5px solid cadetblue;
 }
 
+.indexMiniBlock {
+    padding: 10px;
+    border: 4px outset;
+}
+
+.indexBlock {
+    width: calc(100% / 5);
+}
+
 .grammarBlock {
     width: calc(100% / 6);
-    border: 4px outset;
 }
 
 .toolBlock {
     width: calc(100% / 4);
-    border: 4px outset;
+}
+
+.csBlock {
+    width: calc(100% / 4);
 }
 
 .devBlock {
     width: calc(100% / 5);
-    border: 4px outset;
 }
 
 .otherBlock {
     width: calc(100% / 3);
-    border: 4px outset;
+}
+
+ul {
+    padding: 5%;
+    position: relative;
+}
+
+li {
+    list-style-type: none;
+    border-left: 6px solid cadetblue; 
+    background-color: rgb(178, 243, 221);
+    text-align: center;
+    color: rgb(61, 60, 60);
+    margin-bottom: 5px;
+    /* line-height: 1.5; */
+    padding: 0.5em;
+
+    cursor: pointer;
+}
+
+li:hover {
+    font-style: italic;
+}
+
+li a {
+    text-decoration: none;
+}
+
+@media only screen and (max-width : 1000px) {
+    .tableIndex {
+        flex-flow: column;
+    }
+
+    .indexMiniBlock {
+        width: 100%;
+    }
 }
