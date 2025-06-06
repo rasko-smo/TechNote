@@ -25,4 +25,3 @@ title: CSS
         </ul>
     </div>
 </body>
-</html>
