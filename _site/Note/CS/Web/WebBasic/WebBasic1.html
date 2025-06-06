@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- 共通のCSS -->
+    <link rel="stylesheet" href="/TechNote/assets/css/common.css">
+    <!-- ページごとのCSS -->
+    
+    
+    <title>Web：基本</title>
+</head>
+<body>
+    
+    <!-- 共通ヘッダー -->
+     <div id="header">
+
+    <div class="headerItem">
+        <div class="linkBlock">
+            <a href="/TechNote/index.html">Top</a>
+        </div>
+    </div>
+
+    <div class="headerItem">
+        <div class="topLinkBlock">
+            <a href="/TechNote/index.html#language">言語</a>
+        </div>
+        <ul class="dropdown">
+            <li class="dropdownItem linkBlock"><a href="/TechNote/Note/language/Java/Java.html">Java</a></li>
+            <li class="dropdownItem linkBlock"><a href="/TechNote/Note/language/HTML/HTML.html">HTML</a></li>
+            <li class="dropdownItem linkBlock"><a href="/TechNote/Note/language/CSS/CSS.html">CSS</a></li>
+            <li class="dropdownItem linkBlock"><a href="">JavaScript</a></li>
+            <li class="dropdownItem linkBlock"><a href="">MySQL</a></li>
+            <li class="dropdownItem linkBlock"><a href="">Python</a></li>
+        </ul>
+    </div>
+
+    <div class="headerItem">
+        <div class="topLinkBlock">
+            <a href="/TechNote/index.html#tool">ツール</a>
+        </div>
+        <ul class="dropdown">
+            <li class="dropdownItem linkBlock"><a href="">Eclipse</a></li>
+            <li class="dropdownItem linkBlock"><a href="/TechNote/Note/tool/VSCode/VSCode.html">VSCode</a></li>
+            <li class="dropdownItem linkBlock"><a href="">Git</a></li>
+            <li class="dropdownItem linkBlock"><a href="">Linux</a></li>
+            <li class="dropdownItem linkBlock"><a href="/TechNote/Note/tool/Jekyll/Jekyll.html">Jekyll</a></li>
+        </ul>
+    </div>
+
+    <div class="headerItem">
+        <div class="topLinkBlock">
+            <a href="/TechNote/index.html#CS">CS</a>
+        </div>
+        <ul class="dropdown">
+            <li class="dropdownItem linkBlock"><a href="/TechNote/Note/CS/Web/Web.html">Web</a></li>
+        </ul>
+    </div>
+
+    <div class="headerItem">
+        <div class="topLinkBlock">
+            <a href="/TechNote/index.html#dev">開発</a>
+        </div>
+        <ul class="dropdown">
+            <li class="dropdownItem linkBlock"><a href="">要件定義</a></li>
+            <li class="dropdownItem linkBlock"><a href="">設計</a></li>
+            <li class="dropdownItem linkBlock"><a href="">開発</a></li>
+            <li class="dropdownItem linkBlock"><a href="">テスト</a></li>
+            <li class="dropdownItem linkBlock"><a href="">リリース</a></li>
+        </ul>
+    </div>
+
+    <div class="headerItem">
+        <div class="topLinkBlock">
+            <a href="/TechNote/index.html#other">その他</a>
+        </div>
+        <ul class="dropdown">
+            <li class="dropdownItem linkBlock"><a href="">参考図書等</a></li>
+            <li class="dropdownItem linkBlock"><a href="">自作アプリ</a></li>
+            <li class="dropdownItem linkBlock"><a href="">暗記道場</a></li>
+        </ul>
+    </div>
+</div>
+
+     <main>
+        <body>
+    <div class="block">
+        <h1>Web:基本</h1>
+    </div>
+    <div class="block">
+        <h2>リクエストとレスポンスは文字列のやり取り</h2>
+        <p>
+            〇確認　curl（Client　for　URL)コマンド<br />
+            →サーバーにリクエストを送信し、レスポンスを受け取るツール
+        </p>
+        <p>
+            〇前提<br />
+            ・VSCodeの拡張機能「Live　Server」を利用&lt;/li&gt;
+        </p>
+        <p>
+            〇試行<br />
+            ★オプション　-v：詳細を表示する<br />
+            コマンド　$ curl -v http://127.0.0.1:5500/memberList.html
+        </p>
+        <p>
+            〇実行結果<br />
+            &gt;:リクエスト<br />
+
+            ーー開始行ーーーーーーーーーーーーーー<br />
+
+            &gt;  GET /memberList.html HTTP/1.1<br />
+
+            ーーヘッダーーーーーーーーーーーーーー<br />
+
+            &gt; Host: 127.0.0.1:5500<br />
+
+            &gt; User-Agent:curl/8.9.1<br />
+
+            &gt; Accept: */*<br />
+
+            ーーボディーーーーーーーーーーーーーー<br />
+
+            (空)<br />
+        </p>
+    </div>
+</body>
+
+     </main>
+
+     <script src="/TechNote/assets/js/common.js"></script>
+</body>
+</html>

@@ -1,0 +1,108 @@
+@charset "utf-8";
+
+/* サイト左上の変更履歴 */
+#period {
+    color: darkgray;
+    text-align: left;
+}
+
+/* サイトの説明 */
+#explainSite {
+    text-align: center;
+}
+
+#tableOfContent {
+    /* background-color: brown; */
+    padding: 2%;
+}
+
+.tableTitle {
+    margin-bottom: 10px;
+}
+
+.indexTitle {
+    text-align: center;
+}
+
+.indexTitle a {
+    text-decoration: none;
+    color: cadetblue;
+}
+
+.tableIndex {
+    width: 100%;
+    display: flex;
+    flex-flow: row;
+    /* background-color: aquamarine; */
+}
+
+#separateLine {
+    height: 5px;
+    /* background-color: cadetblue; */
+    border-bottom: 5px solid cadetblue;
+}
+
+.indexMiniBlock {
+    padding: 10px;
+    border: 4px outset;
+}
+
+.indexBlock {
+    width: calc(100% / 5);
+}
+
+.grammarBlock {
+    width: calc(100% / 6);
+}
+
+.toolBlock {
+    width: calc(100% / 5);
+}
+
+.csBlock {
+    width: calc(100% / 4);
+}
+
+.devBlock {
+    width: calc(100% / 5);
+}
+
+.otherBlock {
+    width: calc(100% / 3);
+}
+
+.indexMiniBlock ul {
+    padding: 5%;
+    position: relative;
+}
+
+.indexMiniBlock ul li {
+    list-style-type: none;
+    border-left: 6px solid cadetblue; 
+    background-color: rgb(178, 243, 221);
+    text-align: center;
+    color: rgb(61, 60, 60);
+    margin-bottom: 5px;
+    /* line-height: 1.5; */
+    padding: 0.5em;
+
+    cursor: pointer;
+}
+
+.indexMiniBlock ul li:hover {
+    font-style: italic;
+}
+
+.indexMiniBlock ul li a {
+    text-decoration: none;
+}
+
+@media only screen and (max-width : 400px) {
+    .tableIndex {
+        flex-flow: column;
+    }
+
+    .indexMiniBlock {
+        width: 100%;
+    }
+}

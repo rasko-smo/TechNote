@@ -1,9 +1,92 @@
----
-layout: default
-title: ラスコの技術ノート
-css: index.css
----
-<div class="block">
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- 共通のCSS -->
+    <link rel="stylesheet" href="/TechNote/assets/css/common.css">
+    <!-- ページごとのCSS -->
+    
+        <link rel="stylesheet" href="/TechNote/assets/css/index.css">
+    
+    
+    <title>ラスコの技術ノート</title>
+</head>
+<body>
+    
+    <!-- 共通ヘッダー -->
+     <div id="header">
+
+    <div class="headerItem">
+        <div class="linkBlock">
+            <a href="/TechNote/index.html">Top</a>
+        </div>
+    </div>
+
+    <div class="headerItem">
+        <div class="topLinkBlock">
+            <a href="/TechNote/index.html#language">言語</a>
+        </div>
+        <ul class="dropdown">
+            <li class="dropdownItem linkBlock"><a href="/TechNote/Note/language/Java/Java.html">Java</a></li>
+            <li class="dropdownItem linkBlock"><a href="/TechNote/Note/language/HTML/HTML.html">HTML</a></li>
+            <li class="dropdownItem linkBlock"><a href="/TechNote/Note/language/CSS/CSS.html">CSS</a></li>
+            <li class="dropdownItem linkBlock"><a href="">JavaScript</a></li>
+            <li class="dropdownItem linkBlock"><a href="">MySQL</a></li>
+            <li class="dropdownItem linkBlock"><a href="">Python</a></li>
+        </ul>
+    </div>
+
+    <div class="headerItem">
+        <div class="topLinkBlock">
+            <a href="/TechNote/index.html#tool">ツール</a>
+        </div>
+        <ul class="dropdown">
+            <li class="dropdownItem linkBlock"><a href="">Eclipse</a></li>
+            <li class="dropdownItem linkBlock"><a href="/TechNote/Note/tool/VSCode/VSCode.html">VSCode</a></li>
+            <li class="dropdownItem linkBlock"><a href="">Git</a></li>
+            <li class="dropdownItem linkBlock"><a href="">Linux</a></li>
+            <li class="dropdownItem linkBlock"><a href="/TechNote/Note/tool/Jekyll/Jekyll.html">Jekyll</a></li>
+        </ul>
+    </div>
+
+    <div class="headerItem">
+        <div class="topLinkBlock">
+            <a href="/TechNote/index.html#CS">CS</a>
+        </div>
+        <ul class="dropdown">
+            <li class="dropdownItem linkBlock"><a href="/TechNote/Note/CS/Web/Web.html">Web</a></li>
+        </ul>
+    </div>
+
+    <div class="headerItem">
+        <div class="topLinkBlock">
+            <a href="/TechNote/index.html#dev">開発</a>
+        </div>
+        <ul class="dropdown">
+            <li class="dropdownItem linkBlock"><a href="">要件定義</a></li>
+            <li class="dropdownItem linkBlock"><a href="">設計</a></li>
+            <li class="dropdownItem linkBlock"><a href="">開発</a></li>
+            <li class="dropdownItem linkBlock"><a href="">テスト</a></li>
+            <li class="dropdownItem linkBlock"><a href="">リリース</a></li>
+        </ul>
+    </div>
+
+    <div class="headerItem">
+        <div class="topLinkBlock">
+            <a href="/TechNote/index.html#other">その他</a>
+        </div>
+        <ul class="dropdown">
+            <li class="dropdownItem linkBlock"><a href="">参考図書等</a></li>
+            <li class="dropdownItem linkBlock"><a href="">自作アプリ</a></li>
+            <li class="dropdownItem linkBlock"><a href="">暗記道場</a></li>
+        </ul>
+    </div>
+</div>
+
+     <main>
+        <div class="block">
     <p id="period">[2025-05-30/2025-06-07]</p>
     <h1 id="title">ラスコの技術ノート</h1>
     <p id="explainSite">IT技術に関して学んだことを、備忘のため記載しています。</p>
@@ -72,25 +155,25 @@ css: index.css
     <h2 class="tableTitle">言語</h2>
     <div class="tableIndex">
         <div id="Java" class="grammarBlock indexMiniBlock">
-            <h3 class="indexTitle"><a href="{{ '/Note/language/Java/Java.html' |relative_url }}">Java</a></h3>
+            <h3 class="indexTitle"><a href="/TechNote/Note/language/Java/Java.html">Java</a></h3>
             <ul>
-                <li><a href="{{ '/Note/language/Java/Java.html#JavaGrammar' |relative_url }}">文法</a></li>
-                <li><a href="{{ '/Note/language/Java/Java.html#Servlet' |relative_url }}">Servlet</a></li>
-                <li><a href="{{ '/Note/language/Java/Java.html#JSP' |relative_url }}">JSP</a></li>
+                <li><a href="/TechNote/Note/language/Java/Java.html#JavaGrammar">文法</a></li>
+                <li><a href="/TechNote/Note/language/Java/Java.html#Servlet">Servlet</a></li>
+                <li><a href="/TechNote/Note/language/Java/Java.html#JSP">JSP</a></li>
             </ul>
         </div>   
 
         <div id="HTML" class="grammarBlock indexMiniBlock">
-            <h3 class="indexTitle"><a href="{{ '/Note/language/HTML/HTML.html' |relative_url }}">HTML</a></h3>
+            <h3 class="indexTitle"><a href="/TechNote/Note/language/HTML/HTML.html">HTML</a></h3>
             <ul>
-                <li><a href="{{ '/Note/language/HTML/HTML.html#HTMLGrammar' |relative_url }}">文法</a></li>
+                <li><a href="/TechNote/Note/language/HTML/HTML.html#HTMLGrammar">文法</a></li>
             </ul>
         </div>
 
         <div id="CSS" class="grammarBlock indexMiniBlock">
-            <h3 class="indexTitle"><a href="{{ '/Note/language/CSS/CSS.html' |relative_url }}">CSS</a></h3>
+            <h3 class="indexTitle"><a href="/TechNote/Note/language/CSS/CSS.html">CSS</a></h3>
             <ul>
-                <li><a href="{{ '/Note/language/CSS/CSS.html#CSSGrammar' |relative_url }}">文法</a></li>
+                <li><a href="/TechNote/Note/language/CSS/CSS.html#CSSGrammar">文法</a></li>
             </ul>
         </div>
 
@@ -116,7 +199,7 @@ css: index.css
         </div>
     </div>
 </div>
-    
+
 <div class="block" id="tool">
     <h2 class="tableTitle">ツール</h2>
     <div class="tableIndex">
@@ -128,10 +211,10 @@ css: index.css
         </div>
 
         <div id="VSCode" class="toolBlock indexMiniBlock">
-            <h3 class="indexTitle"><a href="{{ '/Note/tool/VSCode/VSCode.html' |relative_url }}">VSCode</a></h3>
+            <h3 class="indexTitle"><a href="/TechNote/Note/tool/VSCode/VSCode.html">VSCode</a></h3>
             <ul>
                 <li>文法</li>
-                <li><a href="{{ '/Note/tool/VSCode/VSCode.html#VSCodeFunction' |relative_url }}">機能</a></li>
+                <li><a href="/TechNote/Note/tool/VSCode/VSCode.html#VSCodeFunction">機能</a></li>
             </ul>
         </div>
 
@@ -150,10 +233,10 @@ css: index.css
         </div>
 
         <div id="Jekyll" class="toolBlock indexMiniBlock">
-            <h3 class="indexTitle"><a href="{{ '/Note/tool/Jekyll/Jekyll.html' |relative_url }}">Jekyll</a></h3>
+            <h3 class="indexTitle"><a href="/TechNote/Note/tool/Jekyll/Jekyll.html">Jekyll</a></h3>
             <ul>
-                <li><a href="{{ '/Note/tool/Jekyll/Jekyll.html#JekyllBasic' |relative_url }}">基本</a></li>
-                <li><a href="{{ '/Note/tool/Jekyll/Jekyll.html#JekyllFeature' |relative_url }}">仕様</a></li>
+                <li><a href="/TechNote/Note/tool/Jekyll/Jekyll.html#JekyllBasic">基本</a></li>
+                <li><a href="/TechNote/Note/tool/Jekyll/Jekyll.html#JekyllFeature">仕様</a></li>
             </ul>
         </div>
     </div>
@@ -163,9 +246,9 @@ css: index.css
     <h2 class="tableTitle">Computer Science</h2>
     <div class="tableIndex">
         <div id="Web" class="csBlock indexMiniBlock">
-            <h3 class="indexTitle"><a href="{{ '/Note/CS/Web/Web.html' |relative_url }}">Web</a></h3>
+            <h3 class="indexTitle"><a href="/TechNote/Note/CS/Web/Web.html">Web</a></h3>
             <ul>
-                <li><a href="{{ '/Note/CS/Web/Web.html#WebBasic' |relative_url }}">基本</a></li>
+                <li><a href="/TechNote/Note/CS/Web/Web.html#WebBasic">基本</a></li>
             </ul>
         </div>
 
@@ -230,7 +313,7 @@ css: index.css
         </div>
 
         <div id="development" class="otherBlock indexMiniBlock">
-            <h3 class="indexTitle"><a href="{{ '/workspace/test/test.html' |relative_url }}">暗記道場</a></h3>
+            <h3 class="indexTitle"><a href="/TechNote/workspace/test/test.html">暗記道場</a></h3>
             <ul>
                 <li></li>
             </ul>
@@ -239,4 +322,11 @@ css: index.css
 </div>
 <div id="separateLine"></div>
 
-<script src="{{ '/assets/js/index.js' |relative_url }}"></script>
+<script src="/TechNote/assets/js/index.js"></script>
+
+
+     </main>
+
+     <script src="/TechNote/assets/js/common.js"></script>
+</body>
+</html>
