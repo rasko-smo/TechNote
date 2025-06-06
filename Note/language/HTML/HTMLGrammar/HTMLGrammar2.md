@@ -16,7 +16,7 @@ title: HTML：文法
             &amp;lt;
         </div>
 
-        <p>大小なり記号の書き方</p>
+        <p>大なり記号の書き方</p>
         <div class="codeText">
             &amp;gt;
         </div>
@@ -29,9 +29,11 @@ title: HTML：文法
         <p>記述例</p>
         <div class="codeText">
             <pre>
-&amp;lt;h1&amp;gt;タイトル&amp;lt;/h1&amp;gt;
+&lt;pre&gt;
+    &amp;lt;h1&amp;gt;タイトル&amp;lt;/h1&amp;gt;
   
-&amp;lt;p&amp;gt;～文章～&amp;lt;/p&amp;gt;
+    &amp;lt;p&amp;gt;～文章～&amp;lt;/p&amp;gt;
+&lt;/pre&gt;
             </pre>
         </div>
 
