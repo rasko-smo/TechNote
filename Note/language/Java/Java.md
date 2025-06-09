@@ -23,6 +23,9 @@ title: Java
 
     <div id="JavaGrammar" class="block">
         <h2>文法</h2>
+        <ul>
+            <li><a href="{{ '/Note/language/Java/Servlet/servlet1.html' |relative_url }}">JSP実行時の仕組み</a></li>
+        </ul>
     </div>
 
     <div id="Servlet" class="block">
