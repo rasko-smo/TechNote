@@ -23,6 +23,7 @@ css: index.css
                 <li><a href="#JavaScript">JavaScript</a></li>
                 <li><a href="#MySQL">MySQL</a></li>
                 <li><a href="#Python">Python</a></li>
+                <li><a href="#C">C</a></li>
             </ul>
         </div>
 
@@ -110,6 +111,13 @@ css: index.css
 
         <div id="Python" class="grammarBlock indexMiniBlock">
             <h3 class="indexTitle"><a href="">Python</a></h3>
+            <ul>
+                <li>文法</li>
+            </ul>
+        </div>
+
+        <div id="C" class="grammarBlock indexMiniBlock">
+            <h3 class="indexTitle"><a href="">C</a></h3>
             <ul>
                 <li>文法</li>
             </ul>
