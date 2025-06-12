@@ -15,6 +15,15 @@ title: HTML
         </ul>
     </div>
 
+    <div id="HTMLBasic" class="block">
+        <h2>基本</h2>
+        <ul>
+            <li>
+                <a href="{{ '/Note/language/HTML/HTMLGrammar/HTMLBasic1.html' |relative_url }}">基本仕様</a>
+            </li>
+        </ul>
+    </div>
+
     <div id="HTMLGrammar" class="block">
         <h2>文法</h2>
         <ul>

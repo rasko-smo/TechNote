@@ -32,8 +32,7 @@
 .tableIndex {
     width: 100%;
     display: flex;
-    flex-flow: wrap row;
-    /* background-color: aquamarine; */
+    flex-flow: wrap row;  /* wrapで折り返し可能にしている */
 }
 
 #separateLine {
