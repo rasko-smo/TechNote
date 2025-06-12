@@ -32,7 +32,7 @@
 .tableIndex {
     width: 100%;
     display: flex;
-    flex-flow: row;
+    flex-flow: wrap row;
     /* background-color: aquamarine; */
 }
 
