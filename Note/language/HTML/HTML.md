@@ -19,7 +19,7 @@ title: HTML
         <h2>基本</h2>
         <ul>
             <li>
-                <a href="{{ '/Note/language/HTML/HTMLGrammar/HTMLBasic1.html' |relative_url }}">基本仕様</a>
+                <a href="{{ '/Note/language/HTML/HTMLBasic/HTMLBasic1.html' |relative_url }}">基本仕様</a>
             </li>
         </ul>
     </div>
