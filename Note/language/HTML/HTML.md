@@ -33,6 +33,9 @@ title: HTML
             <li>
                 <a href="{{ '/Note/language/HTML/HTMLGrammar/HTMLGrammar2.html' |relative_url }}">HTML上でHTMLタグをそのまま表示させる方法</a>
             </li>
+            <li>
+                <a href="{{ '/Note/language/HTML/HTMLGrammar/HTMLGrammar3.html' |relative_url }}">HTML上で正規表現チェックを行う</a>
+            </li>
         </ul>
     </div>
 </body>
