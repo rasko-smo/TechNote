@@ -32,8 +32,7 @@
 .tableIndex {
     width: 100%;
     display: flex;
-    flex-flow: row;
-    /* background-color: aquamarine; */
+    flex-flow: wrap row;  /* wrapで折り返し可能にしている */
 }
 
 #separateLine {
@@ -52,7 +51,7 @@
 }
 
 .grammarBlock {
-    width: calc(100% / 6);
+    width: calc(100% / 4);
 }
 
 .toolBlock {

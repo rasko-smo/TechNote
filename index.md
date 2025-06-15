@@ -23,6 +23,7 @@ css: index.css
                 <li><a href="#JavaScript">JavaScript</a></li>
                 <li><a href="#MySQL">MySQL</a></li>
                 <li><a href="#Python">Python</a></li>
+                <li><a href="#C">C</a></li>
             </ul>
         </div>
 
@@ -83,6 +84,7 @@ css: index.css
         <div id="HTML" class="grammarBlock indexMiniBlock">
             <h3 class="indexTitle"><a href="{{ '/Note/language/HTML/HTML.html' |relative_url }}">HTML</a></h3>
             <ul>
+                <li><a href="{{ '/Note/language/HTML/HTML.html#HTMLBasic' |relative_url }}">基本</a></li>
                 <li><a href="{{ '/Note/language/HTML/HTML.html#HTMLGrammar' |relative_url }}">文法</a></li>
             </ul>
         </div>
@@ -110,6 +112,13 @@ css: index.css
 
         <div id="Python" class="grammarBlock indexMiniBlock">
             <h3 class="indexTitle"><a href="">Python</a></h3>
+            <ul>
+                <li>文法</li>
+            </ul>
+        </div>
+
+        <div id="C" class="grammarBlock indexMiniBlock">
+            <h3 class="indexTitle"><a href="">C</a></h3>
             <ul>
                 <li>文法</li>
             </ul>

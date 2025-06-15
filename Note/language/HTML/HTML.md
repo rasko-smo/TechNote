@@ -15,6 +15,15 @@ title: HTML
         </ul>
     </div>
 
+    <div id="HTMLBasic" class="block">
+        <h2>基本</h2>
+        <ul>
+            <li>
+                <a href="{{ '/Note/language/HTML/HTMLBasic/HTMLBasic1.html' |relative_url }}">基本仕様</a>
+            </li>
+        </ul>
+    </div>
+
     <div id="HTMLGrammar" class="block">
         <h2>文法</h2>
         <ul>
@@ -23,6 +32,9 @@ title: HTML
             </li>
             <li>
                 <a href="{{ '/Note/language/HTML/HTMLGrammar/HTMLGrammar2.html' |relative_url }}">HTML上でHTMLタグをそのまま表示させる方法</a>
+            </li>
+            <li>
+                <a href="{{ '/Note/language/HTML/HTMLGrammar/HTMLGrammar3.html' |relative_url }}">HTML上で正規表現チェックを行う</a>
             </li>
         </ul>
     </div>
