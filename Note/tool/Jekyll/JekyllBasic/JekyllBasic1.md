@@ -75,7 +75,7 @@ title: Jekyll：基本
             </li>
             <li>
                 サイトの確認<br>
-                →ブラウザで「http://localhost:4000」を開く。
+                →ブラウザで「http://localhost:4000/ディレクトリ/」を開く。
             </li>
             <li>
                 サーバーの終了方法<br>
