@@ -57,11 +57,12 @@ css: index.css
         </div>
 
         <div class="indexBlock indexMiniBlock">
-            <h3 class="indexTitle"><a href="#other">その他</a></h3>
+            <h3 class="indexTitle"><a href="#others">その他</a></h3>
             <ul>
-                <li><a href="">参考図書・Webページ</a></li>
+                <li><a href="">本棚</a></li>
                 <li><a href="">自作アプリ</a></li>
                 <li><a href="">暗記道場</a></li>
+                <li><a href="{{ '//Note/others/hobby/hobby.html' | relative_url}}">趣味ページ</a></li>
             </ul>
         </div>
     </div>
@@ -221,27 +222,34 @@ css: index.css
     </div>
 </div>
 
-<div class="block" id="other">
+<div class="block" id="others">
     <h2 class="tableTitle">その他</h2>
     <div class="tableIndex">
-        <div id="development" class="otherBlock indexMiniBlock">
-            <h3 class="indexTitle"><a href="">参考図書・Webページ</a></h3>
+        <div id="" class="othersBlock indexMiniBlock">
+            <h3 class="indexTitle"><a href="">本棚</a></h3>
             <ul>
-                <li></li>
+                <li><a href="{{ '/Note/others/bookshelf/bookshelf.html' |relative_url }}">参考図書</a></li>
             </ul>
         </div>
 
-        <div id="development" class="otherBlock indexMiniBlock">
+        <div id="" class="othersBlock indexMiniBlock">
             <h3 class="indexTitle"><a href="">自作アプリ</a></h3>
             <ul>
                 <li></li>
             </ul>
         </div>
 
-        <div id="development" class="otherBlock indexMiniBlock">
+        <div id="" class="othersBlock indexMiniBlock">
             <h3 class="indexTitle"><a href="{{ '/workspace/test/test.html' |relative_url }}">暗記道場</a></h3>
             <ul>
                 <li></li>
+            </ul>
+        </div>
+
+        <div id="" class="othersBlock indexMiniBlock">
+            <h3 class="indexTitle"><a href="{{ '/Note/others/hobby/hobby.html' | relative_url}}">趣味ページ</a></h3>
+            <ul>
+                <li><a href="{{ '' |relative_url }}">MyScene</a></li>
             </ul>
         </div>
     </div>

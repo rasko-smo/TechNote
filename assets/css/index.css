@@ -66,8 +66,8 @@
     width: calc(100% / 5);
 }
 
-.otherBlock {
-    width: calc(100% / 3);
+.othersBlock {
+    width: calc(100% / 4);
 }
 
 .indexMiniBlock ul {
